@@ -39,9 +39,17 @@ import numpy as np
 # print(Rearr)
 
 # ---------Quotient and Mod-------
-arr1 = ([5,10,20])
-arr2 = ([2,3,2])
+# arr1 = ([5,10,20])
+# arr2 = ([2,3,2])
 
-arrn = np.divmod(arr1, arr2)
+# arrn = np.divmod(arr1, arr2)
 
-print(arrn)
+# print(arrn)
+
+
+# ------absolute-------------
+arr = np.array([-1, -2, 1, 2, 3, -4])
+
+narr = np.absolute(arr)
+print(narr)
+
