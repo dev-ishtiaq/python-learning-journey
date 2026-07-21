@@ -25,8 +25,23 @@ import numpy as np
 
 
 # ---------Mod--------
+# arr1 = ([5,10,20])
+# arr2 = ([2,3,2])
+
+# Modarr = np.mod(arr1, arr2)
+# print(Modarr)
+
+# # ------------Remainder-------
+# arr1 = ([5,10,20])
+# arr2 = ([2,3,2])
+
+# Rearr = np.remainder(arr1, arr2)
+# print(Rearr)
+
+# ---------Quotient and Mod-------
 arr1 = ([5,10,20])
 arr2 = ([2,3,2])
 
-Modarr = np.mod(arr1, arr2)
-print(Modarr)
+arrn = np.divmod(arr1, arr2)
+
+print(arrn)
