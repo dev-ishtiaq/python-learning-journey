@@ -23,3 +23,10 @@ import numpy as np
 # poarr = np.power(arr1, arr2)
 # print(poarr)
 
+
+# ---------Mod--------
+arr1 = ([5,10,20])
+arr2 = ([2,3,2])
+
+Modarr = np.mod(arr1, arr2)
+print(Modarr)
