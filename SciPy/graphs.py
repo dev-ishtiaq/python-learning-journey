@@ -13,7 +13,7 @@ newarr = csr_matrix(arr)
 print(connected_components(newarr))
 
 
-# --Dijkstra---------------
+# -----------Dijkstra---------------
 
 arr2 = np.array([
   [0, 1, 2],
