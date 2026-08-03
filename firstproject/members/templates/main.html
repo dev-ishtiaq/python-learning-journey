@@ -1,0 +1,9 @@
+{% extends "master.html" %}
+
+{% block title %}My Club{% endblock %}
+
+{% block contect %}
+<h1>Welcome to My Club</h1>
+<p>This is the main page for our club.</p>
+<p><a href="{% url 'members' %}">View all members</a></p>
+{% endblock %}

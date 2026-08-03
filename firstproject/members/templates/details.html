@@ -1,0 +1,9 @@
+{% extends "master.html" %}
+
+{% block title %}Member Details{% endblock %}
+
+{% block contect %}
+<h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
+<p>Phone: {{ mymember.phone }}</p>
+<p>Joining Date: {{ mymember.joined_date }}</p>
+{% endblock %}
